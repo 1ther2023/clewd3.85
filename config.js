@@ -5,8 +5,10 @@
 
 // SET YOUR COOKIE BELOW
 
+const cookieValue = process.env.MY_COOKIE || "SET YOUR COOKIE HERE";
+
 module.exports = {
-    "Cookie": "SET YOUR COOKIE HERE",
+    "Cookie": cookieValue,
     "CookieArray": [],
     "Ip": "127.0.0.1",
     "Port": 8444,
